@@ -9,8 +9,8 @@ public class WrapperActivity {
 		Integer[] arr = new Integer[len];
 		System.out.println("Enter values to be sorted");
 		for (Integer i = new Integer(0); i.compareTo(len)!=0; i++) {
-			Integer num = Integer.parseInt(s.next());
-			arr[i] = num;
+			Integer inp = Integer.parseInt(s.next());
+			arr[i] = inp;
 		}
 		for (Integer i = new Integer(0); i.compareTo(len-1)!=0; i++) {
 			for (Integer j = new Integer(0); j.compareTo(len-1)!=0; j++) {
